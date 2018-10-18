@@ -1,1 +1,1 @@
-Для подготовильных практических заданий и воркшопов по курсу front-end.
+# 7bits-frontend-courses-workshop-weeks-2-3
