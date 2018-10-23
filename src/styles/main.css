@@ -1,156 +1,159 @@
 body {
-    margin: 0;
-}
-
-.header, .main {
-    width: 1250px;
-    margin: 0 auto;
-}
-
-.header {
-    padding: 120px 0 100px 0;
-    border-bottom: 1px solid #cecdce;
-}
-
-.header__title {
-    font-family: Arial;
-    font-size: 50px;
-    font-weight: normal;
-    text-transform: uppercase;
-    color: #434244;
-    margin: 0;
-}
-
-.header__subtitle {
-    font-family: Arial;
-    font-size: 27px;
-    font-weight: normal;
-    color: #434244;
-    margin: 15px 0 0 0;
-}
-
-.contacts {
-    margin: 0;
     padding: 0;
-    list-style: none;
+    margin: 0;
 }
 
-.contacts__item {
-    display: inline-block;
-    margin-right: 10px;
-    font-family: Arial;
-    font-size: 17px;
+.container {
+    padding-left: 5.833333333%;
+    padding-right: 5.833333333%;
+    padding-top: 5.833333333%;
 }
 
-.contacts__link {
-    color: #9c9da0;
-    text-decoration: none;
-}
-
-.header__contacts {
-    margin-top: 30px;
-}
-
-.main {
-    padding: 40px 0 510px 0;
-    font-size: 0;
-}
-
-.main__left, .main__right {
+.main_block__article, .main_block__aside {
     display: inline-block;
     vertical-align: top;
 }
 
-.main__left {
-    width: 425px;
-}
-
-.main__right {
-    box-sizing: border-box;
-    width: 825px;
-    padding-left: 65px;
-}
-
-.main__avatar {
-    margin-bottom: 35px;
-}
-
-.personal-info__title {
+.nav_bar__logo, .nav_bar__sections_list {
     display: inline-block;
+    vertical-align: top;
+}
+
+.nav_bar__sections_list {
+    float: right;
+}
+
+.nav_bar__sections_list .section_title {
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.nav_bar__list {
+    list-style-type: none;
     margin: 0;
-    padding: 10px 35px;
-    background-color: #e8c734;
-    font-family: Arial;
-    font-size: 23px;
-    font-weight: bold;
-    color: #434244;
-}
-
-.personal-info__content {
-    margin-top: 35px;
-}
-
-.personal-info__text {
-    margin: 0;
-    font-family: Arial;
-    font-size: 18px;
-    color: #434244;
-}
-
-.personal-info__text_bold {
-    font-weight: bold;
-}
-
-.footer {
-    height: 45px;
-    background-color: #e8c734;
-}
-
-.data__range {
-    font-size: 19px;
-    line-height: 31px;
-    font-family: Arial;
-    color: #434244;
-    font-style: italic;
-    margin: 0;
-}
-
-.experience__position {
-    font-size: 19px;
-    line-height: 31px;
-    color: #1a1a1a;
-    font-family: Arial;
-    font-weight: bold;
-    margin: 0;
-}
-
-.experience__text {
-    font-size: 17px;
-    line-height: 31px;
-    margin-top: 10px;
-    color: #434244;
-    font-family: Arial;
-}
-
-.experience__text_bold {
-    font-weight: bold;
-}
-
-.personal-info__experience {
     padding: 0;
+    overflow: hidden;
 }
 
-.experience__company {
+.nav_bar__list_item {
+    float: left;
+
+}
+
+.logo {
+}
+
+.footer__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer__list__item {
+    float: left;
+}
+
+.footer__list__item a {
+    display: block;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Arial", serif;
+    padding: 14px 16px;
+}
+
+.welcome_block {
+}
+
+.welcome_block img {
+    width: 100%;
+}
+
+.main_block {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main_block__article {
+    box-sizing: border-box;
+    width: 69.811320755%;
+    padding-left: 7.075471698%;
+}
+
+.main_block__article img {
+    width: 100%;
+}
+
+.main_block__article .section_title {
     margin-top: 0;
-    margin-bottom: 0;
-    font-size: 19px;
-    line-height: 31px;
-    color: #1a1a1a;
-    font-family: Arial;
 }
 
-.experience__company_link {
-    color: #1a1a1a;
+.main_block__aside {
+    width: 25.471698113%;
+    float: right;
+}
+
+.main_block__aside__about_me img {
+    width: 100%;
+}
+
+.main_block__aside__list {
+    color: #b4ac9e;
+    padding-left: 1em;
+}
+
+.main_block_aside__list__item {
+    padding-left: 1em;
+}
+
+footer {
+    padding: 1.304347826% 12.082531458%;
+    background-color: #efefef;
+}
+
+.section_title {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+
+.title {
+    font-size: 30px;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+
+.aside__title {
+    font-size: 24px;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+
+.article {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+
+.post_title {
+    font-size: 16px;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+
+.comments_count {
+    font-size: 12px;
+    color: #b4ad9e;
+    font-family: "Arial", serif;
+    text-transform: uppercase;
+}
+
+a {
     text-decoration: none;
 }
 
