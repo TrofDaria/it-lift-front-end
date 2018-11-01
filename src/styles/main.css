@@ -2,155 +2,64 @@ body {
     margin: 0;
 }
 
-.header, .main {
-    width: 1250px;
-    margin: 0 auto;
+.main {
+    margin: 50px 0 0 50px;
 }
 
-.header {
-    padding: 120px 0 100px 0;
-    border-bottom: 1px solid #cecdce;
-}
-
-.header__title {
-    font-family: Arial;
-    font-size: 50px;
-    font-weight: normal;
-    text-transform: uppercase;
-    color: #434244;
+.section-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #1a1a1a;
+    display: inline-block;
+    text-align: center;
+    width: 221px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin: 0;
+    background-color: #e8c734;
 }
 
-.header__subtitle {
-    font-family: Arial;
-    font-size: 27px;
-    font-weight: normal;
-    color: #434244;
-    margin: 15px 0 0 0;
-}
-
-.contacts {
-    margin: 0;
+.skills {
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
-.contacts__item {
-    display: inline-block;
-    margin-right: 10px;
-    font-family: Arial;
-    font-size: 17px;
+.skills__item {
+    margin-top: 50px;
 }
 
-.contacts__link {
-    color: #9c9da0;
-    text-decoration: none;
+.skills__item:first-child {
+    margin-top: 45px;
 }
 
-.header__contacts {
-    margin-top: 30px;
-}
-
-.main {
-    padding: 40px 0 510px 0;
-    font-size: 0;
-}
-
-.main__left, .main__right {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.main__left {
-    width: 425px;
-}
-
-.main__right {
-    box-sizing: border-box;
-    width: 825px;
-    padding-left: 65px;
-}
-
-.main__avatar {
-    margin-bottom: 35px;
-}
-
-.personal-info__title {
-    display: inline-block;
-    margin: 0;
-    padding: 10px 35px;
-    background-color: #e8c734;
-    font-family: Arial;
-    font-size: 23px;
-    font-weight: bold;
-    color: #434244;
-}
-
-.personal-info__content {
-    margin-top: 35px;
-}
-
-.personal-info__text {
-    margin: 0;
-    font-family: Arial;
-    font-size: 18px;
-    color: #434244;
-}
-
-.personal-info__text_bold {
-    font-weight: bold;
-}
-
-.footer {
-    height: 45px;
-    background-color: #e8c734;
-}
-
-.data__range {
-    font-size: 19px;
-    line-height: 31px;
-    font-family: Arial;
-    color: #434244;
-    font-style: italic;
-    margin: 0;
-}
-
-.experience__position {
-    font-size: 19px;
-    line-height: 31px;
+.skills__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 31px;
+    font-weight: 400;
     color: #1a1a1a;
-    font-family: Arial;
-    font-weight: bold;
+}
+
+.skills__border {
+    width: 615px;
+    height: 26px;
+    position: relative;
+    border: 2px solid #bbbcbe;
     margin: 0;
 }
-
-.experience__text {
-    font-size: 17px;
-    line-height: 31px;
-    margin-top: 10px;
-    color: #434244;
-    font-family: Arial;
+.communication:after, .teamwork:after, .leadership:after{
+    width: 457px;
+}
+.creativitiy:after, .organization:after, .teamplayer:after{
+    width: 546px;
 }
 
-.experience__text_bold {
-    font-weight: bold;
+.skills__border:after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    top: -2px;
+    left: -2px;
+    background-color: #808183;
 }
-
-.personal-info__experience {
-    padding: 0;
-}
-
-.experience__company {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 19px;
-    line-height: 31px;
-    color: #1a1a1a;
-    font-family: Arial;
-}
-
-.experience__company_link {
-    color: #1a1a1a;
-    text-decoration: none;
-}
-
