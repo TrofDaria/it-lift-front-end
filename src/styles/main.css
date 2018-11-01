@@ -30,10 +30,6 @@ body {
     margin-top: 50px;
 }
 
-.skills__item:first-child {
-    margin-top: 45px;
-}
-
 .skills__title {
     font-family: "Roboto", sans-serif;
     font-size: 31px;
@@ -48,10 +44,12 @@ body {
     border: 2px solid #bbbcbe;
     margin: 0;
 }
-.communication:after, .teamwork:after, .leadership:after{
+
+.communication:after, .teamwork:after, .leadership:after {
     width: 457px;
 }
-.creativitiy:after, .organization:after, .teamplayer:after{
+
+.creativity:after, .organization:after, .teamplayer:after {
     width: 546px;
 }
 
