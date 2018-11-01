@@ -2,155 +2,107 @@ body {
     margin: 0;
 }
 
-.header, .main {
-    width: 1250px;
-    margin: 0 auto;
+.post {
+    margin: 5vmin;
+    position: relative;
+    width: 60vmin;
+    height: 90vmin;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }
 
-.header {
-    padding: 120px 0 100px 0;
-    border-bottom: 1px solid #cecdce;
+.post__photo {
+    width: 100%;
 }
 
-.header__title {
-    font-family: Arial;
-    font-size: 50px;
-    font-weight: normal;
+.post__icon {
+    top: 41%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.post h3 {
+    font-family: "Hind", serif;
     text-transform: uppercase;
-    color: #434244;
-    margin: 0;
+    font-size: 14px;
+    color: #999999;
 }
 
-.header__subtitle {
-    font-family: Arial;
-    font-size: 27px;
-    font-weight: normal;
-    color: #434244;
-    margin: 15px 0 0 0;
+.post__comments__icon {
+    flex: 0.1;
+    margin-left: 12.857142857%;
+
 }
 
-.contacts {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.post__comments__section {
+
 }
 
-.contacts__item {
-    display: inline-block;
-    margin-right: 10px;
-    font-family: Arial;
-    font-size: 17px;
+.post__description {
+    margin: 10%;
 }
 
-.contacts__link {
-    color: #9c9da0;
+.post__description__link  a {
+    letter-spacing: 3px;
+    color: #999999;
     text-decoration: none;
+    margin: 5px;
 }
 
-.header__contacts {
+.post__description__link  a:hover {
+    color: #d67900;
+}
+
+.post__description__link {
+    text-align: center;
     margin-top: 30px;
 }
 
-.main {
-    padding: 40px 0 510px 0;
-    font-size: 0;
+.post__description__title__border {
+    position: relative;
+}
+.post__description__link a:after,  .post__description__link a:before {
+    content: "";
+    width: 30px;
+    display: block;
+    border-top: #d6d6d6 2px solid;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.post__description__link a:after{
+    top: -5px;
+}
+.post__description__link a:before{
+    top: 25px;
+}
+.post__description__link a:hover:after,  .post__description__link a:hover:before {
+    border-top: #d67900 2px solid;
+}
+.post__description__section {
+    text-align: center;
 }
 
-.main__left, .main__right {
-    display: inline-block;
-    vertical-align: top;
+.post__description__date {
+    text-align: center;
 }
 
-.main__left {
-    width: 425px;
+.post__comments {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-top: 1px solid #d6d6d6;
+    padding: 5px;
 }
 
-.main__right {
-    box-sizing: border-box;
-    width: 825px;
-    padding-left: 65px;
-}
-
-.main__avatar {
-    margin-bottom: 35px;
-}
-
-.personal-info__title {
-    display: inline-block;
-    margin: 0;
-    padding: 10px 35px;
-    background-color: #e8c734;
-    font-family: Arial;
-    font-size: 23px;
+.post__description__title {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #212121;
+    font-family: "Montserrat", serif;
     font-weight: bold;
-    color: #434244;
-}
-
-.personal-info__content {
-    margin-top: 35px;
-}
-
-.personal-info__text {
-    margin: 0;
-    font-family: Arial;
-    font-size: 18px;
-    color: #434244;
-}
-
-.personal-info__text_bold {
-    font-weight: bold;
-}
-
-.footer {
-    height: 45px;
-    background-color: #e8c734;
-}
-
-.data__range {
-    font-size: 19px;
-    line-height: 31px;
-    font-family: Arial;
-    color: #434244;
-    font-style: italic;
-    margin: 0;
-}
-
-.experience__position {
-    font-size: 19px;
-    line-height: 31px;
-    color: #1a1a1a;
-    font-family: Arial;
-    font-weight: bold;
-    margin: 0;
-}
-
-.experience__text {
-    font-size: 17px;
-    line-height: 31px;
-    margin-top: 10px;
-    color: #434244;
-    font-family: Arial;
-}
-
-.experience__text_bold {
-    font-weight: bold;
-}
-
-.personal-info__experience {
-    padding: 0;
-}
-
-.experience__company {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 19px;
-    line-height: 31px;
-    color: #1a1a1a;
-    font-family: Arial;
-}
-
-.experience__company_link {
-    color: #1a1a1a;
-    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
