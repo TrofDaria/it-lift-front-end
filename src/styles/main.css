@@ -5,9 +5,11 @@ body {
 .post {
     margin: 5vmin;
     position: relative;
-    width: 60vmin;
-    height: 90vmin;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    width: 360px;
+    height: 555px;
+    box-shadow: 0px 3px 29px rgba(111, 111, 111, 0.49);
+    background-color: #ffffff;
+    border: 1px solid rgba(220, 220, 220, 0.15);
 }
 
 .post__photo {
@@ -22,69 +24,76 @@ body {
 }
 
 .post h3 {
-    font-family: "Hind", serif;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 14px;
     color: #999999;
+    letter-spacing: 1px;
 }
 
 .post__comments__icon {
     flex: 0.1;
-    margin-left: 12.857142857%;
-
-}
-
-.post__comments__section {
-
+    margin-left: 25px;
 }
 
 .post__description {
     margin: 10%;
 }
 
-.post__description__link  a {
+.post__description__link a {
     letter-spacing: 3px;
     color: #999999;
     text-decoration: none;
     margin: 5px;
 }
 
-.post__description__link  a:hover {
+.post__description__link a:hover {
     color: #d67900;
 }
 
 .post__description__link {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .post__description__title__border {
     position: relative;
 }
-.post__description__link a:after,  .post__description__link a:before {
+
+.post__description__link a:after, .post__description__link a:before {
     content: "";
     width: 30px;
     display: block;
-    border-top: #d6d6d6 2px solid;
+    border-top: #d6d6d6 1px solid;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
-.post__description__link a:after{
+
+.post__description__link a:after {
     top: -5px;
 }
-.post__description__link a:before{
+
+.post__description__link a:before {
     top: 25px;
 }
-.post__description__link a:hover:after,  .post__description__link a:hover:before {
-    border-top: #d67900 2px solid;
+
+.post__description__link a:hover:after, .post__description__link a:hover:before {
+    border-top: #d67900 1px solid;
 }
+
 .post__description__section {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 .post__description__date {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .post__comments {
@@ -92,17 +101,22 @@ body {
     align-items: center;
     background-color: #ffffff;
     border-top: 1px solid #d6d6d6;
-    padding: 5px;
+    height: 55px;
+}
+
+.post__comments h3 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .post__description__title {
     text-transform: uppercase;
     font-size: 20px;
     color: #212121;
-    font-family: "Montserrat", serif;
-    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
