@@ -1,1 +1,1 @@
-# 7bits-frontend-courses-workshop-weeks-2-3
+Третий воркшоп по курсу front-end.
