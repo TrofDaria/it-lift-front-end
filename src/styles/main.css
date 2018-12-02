@@ -1,156 +1,83 @@
-body {
-    margin: 0;
+.registration {
+    width: 420px;
+    height: 765px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.14);
 }
 
-.header, .main {
-    width: 1250px;
-    margin: 0 auto;
+.registration-form {
+    padding-left: 15px;
+    padding-right: 35px;
+    padding-top: 45px;
 }
 
-.header {
-    padding: 120px 0 100px 0;
-    border-bottom: 1px solid #cecdce;
+.registration-form__title {
+    font-size: 33px;
+    color: #262e73;
+    font-family: "PT Sans", serif;
+    font-weight: 700;
+    margin: 15px;
+    text-align: center;
 }
 
-.header__title {
-    font-family: Arial;
-    font-size: 50px;
-    font-weight: normal;
-    text-transform: uppercase;
-    color: #434244;
-    margin: 0;
+.registration-form__label, .registration-form__input {
+    display: block;
 }
 
-.header__subtitle {
-    font-family: Arial;
-    font-size: 27px;
-    font-weight: normal;
-    color: #434244;
-    margin: 15px 0 0 0;
+.registration-form__label {
+    font-size: 14px;
+    color: #262e73;
+    font-family: "PT Sans", serif;
+    margin-top: 15px
 }
 
-.contacts {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.input-field {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: calc(100% - 30px);
+    height: 40px;
 }
 
-.contacts__item {
+.input-field-label {
+    margin-bottom: 5px;
+}
+
+.gender-label {
     display: inline-block;
-    margin-right: 10px;
-    font-family: Arial;
     font-size: 17px;
+    color: #282828;
+    font-family: "PT Sans", serif;
 }
 
-.contacts__link {
-    color: #9c9da0;
+.gender-radio {
+    display: inline-block;
+    background-color: white;
+}
+
+.agreement-checkbox {
+    display: inline-block;
+}
+
+.agreement-label {
+    display: inline-block;
+    font-size: 12px;
+    color: #565d69;
+    font-family: "PT Sans", serif;
+    margin-bottom: 10px;
+}
+
+.registration-form__link {
     text-decoration: none;
+    color: #262e73;
 }
 
-.header__contacts {
-    margin-top: 30px;
-}
-
-.main {
-    padding: 40px 0 510px 0;
-    font-size: 0;
-}
-
-.main__left, .main__right {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.main__left {
-    width: 425px;
-}
-
-.main__right {
-    box-sizing: border-box;
-    width: 825px;
-    padding-left: 65px;
-}
-
-.main__avatar {
-    margin-bottom: 35px;
-}
-
-.personal-info__title {
-    display: inline-block;
-    margin: 0;
-    padding: 10px 35px;
-    background-color: #e8c734;
-    font-family: Arial;
-    font-size: 23px;
-    font-weight: bold;
-    color: #434244;
-}
-
-.personal-info__content {
-    margin-top: 35px;
-}
-
-.personal-info__text {
-    margin: 0;
-    font-family: Arial;
-    font-size: 18px;
-    color: #434244;
-}
-
-.personal-info__text_bold {
-    font-weight: bold;
-}
-
-.footer {
-    height: 45px;
-    background-color: #e8c734;
-}
-
-.data__range {
-    font-size: 19px;
-    line-height: 31px;
-    font-family: Arial;
-    color: #434244;
-    font-style: italic;
-    margin: 0;
-}
-
-.experience__position {
-    font-size: 19px;
-    line-height: 31px;
-    color: #1a1a1a;
-    font-family: Arial;
-    font-weight: bold;
-    margin: 0;
-}
-
-.experience__text {
+.registration-form__button {
+    width: 370px;
+    height: 42px;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #0bc691;
     font-size: 17px;
-    line-height: 31px;
-    margin-top: 10px;
-    color: #434244;
-    font-family: Arial;
+    color: #ffffff;
+    font-family: "PT Sans", serif;
 }
-
-.experience__text_bold {
-    font-weight: bold;
-}
-
-.personal-info__experience {
-    padding: 0;
-}
-
-.experience__company {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 19px;
-    line-height: 31px;
-    color: #1a1a1a;
-    font-family: Arial;
-}
-
-.experience__company_link {
-    color: #1a1a1a;
-    text-decoration: none;
-}
-

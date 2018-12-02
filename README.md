@@ -1,1 +1,1 @@
-# 7bits-frontend-courses-workshop-weeks-2-3
+Третье подготовительное практическое задание по курсу front-end.
