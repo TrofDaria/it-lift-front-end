@@ -1,0 +1,29 @@
+.header img {
+    width: 100%;
+}
+.nav_bar__logo, .nav_bar__sections_list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav_bar__sections_list {
+    float: right;
+}
+
+.nav_bar__sections_list .section_title {
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-decoration: none;
+}
+.nav_bar__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav_bar__list_item {
+    float: left;
+}
+

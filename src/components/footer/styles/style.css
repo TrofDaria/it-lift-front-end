@@ -1,0 +1,24 @@
+.footer {
+    padding: 1.304347826% 12.082531458%;
+    background-color: #efefef;
+}
+
+.footer__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer__list__item {
+    float: left;
+}
+
+.footer__list__item a {
+    display: block;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Arial", serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}

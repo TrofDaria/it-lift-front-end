@@ -1,0 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding-left: 5.833333333%;
+    padding-right: 5.833333333%;
+    padding-top: 5.833333333%;
+}
+
+.main_block {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

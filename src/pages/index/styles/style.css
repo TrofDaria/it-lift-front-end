@@ -1,0 +1,35 @@
+
+.section_title {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+
+.article{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 69.811320755%;
+    padding-left: 7.075471698%;
+}
+
+.main_block__article .section_title {
+    margin-top: 0;
+}
+.article img{
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+.article_content {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial", serif;
+}

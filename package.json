@@ -1,0 +1,28 @@
+{
+  "name": "it-lift-front-end",
+  "version": "1.0.0",
+  "description": "Четвертый воркшоп по курсу front-end.",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0"
+  },
+  "devDependencies": {
+    "gulp-compile-handlebars": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrofDaria/it-lift-front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrofDaria/it-lift-front-end/issues"
+  },
+  "homepage": "https://github.com/TrofDaria/it-lift-front-end#readme"
+}

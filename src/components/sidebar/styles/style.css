@@ -1,0 +1,53 @@
+.aside__title {
+    font-size: 24px;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+.comments_count {
+    font-size: 12px;
+    color: #b4ad9e;
+    font-family: "Arial", serif;
+    text-transform: uppercase;
+}
+.aside {
+    width: 25.471698113%;
+    float: right;
+}
+
+.post_title {
+    font-size: 16px;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+
+.section_title {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #626262;
+    font-family: "Arial", serif;
+}
+
+.article_content {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000b62;
+    font-family: "Arial", serif;
+}
+.aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main_block__aside__about_me img {
+    width: 100%;
+}
+
+.main_block__aside__list {
+    color: #b4ac9e;
+    padding-left: 1em;
+}
+
+.main_block_aside__list__item {
+    padding-left: 1em;
+}
